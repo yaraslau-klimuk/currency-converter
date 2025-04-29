@@ -3,6 +3,7 @@ import "@/styles/globals.css"
 import { ReactNode } from "react"
 import { Metadata, Viewport } from "next"
 import { Geist, Geist_Mono } from "next/font/google"
+import { Analytics } from "@vercel/analytics/next"
 import { ThemeProvider } from "next-themes"
 import { SkeletonTheme } from "react-loading-skeleton"
 
@@ -90,6 +91,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
               <TailwindIndicator />
             </SkeletonTheme>
           </ThemeProvider>
+          <Analytics />
         </body>
       </html>
     </>
