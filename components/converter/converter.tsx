@@ -191,8 +191,8 @@ export default function Converter({ rates }: ConverterProps) {
           )}
         </div>
 
-        <div className="flex flex-col px-3 pb-10 pt-4 sm:mx-auto sm:w-[70%] sm:px-4">
-          <h2 className="pb-5 text-3xl font-bold leading-tight tracking-tighter">
+        <div className="flex flex-col px-2 pb-10 pt-4 sm:mx-auto sm:w-[70%] sm:px-4">
+          <h2 className="pb-5 pl-1 text-3xl font-bold leading-tight tracking-tighter">
             Converter
           </h2>
 
