@@ -153,7 +153,7 @@ export default function Converter({ rates }: ConverterProps) {
   return (
     <>
       <Container>
-        <div className="flex items-center justify-between border-b p-3">
+        <div className="flex items-center justify-between border-b p-3 sm:p-4">
           <div className="flex">
             <Button
               ref={settingsButtonRef}
@@ -191,7 +191,7 @@ export default function Converter({ rates }: ConverterProps) {
           )}
         </div>
 
-        <div className="flex flex-col p-5 px-4 pb-10 pt-4 sm:mx-auto sm:w-[70%]">
+        <div className="flex flex-col px-3 pb-10 pt-4 sm:mx-auto sm:w-[70%] sm:px-4">
           <h2 className="pb-5 text-3xl font-bold leading-tight tracking-tighter">
             Converter
           </h2>
