@@ -3,7 +3,7 @@
     "short_name": "Converter",
     "start_url": "/",
     "display": "standalone",
-    "background_color": "hsl(0 0% 7%)",
+    "background_color": "hsl(0, 0%, 100%)",
     "icons": [
         {
             "src": "/icons/icon-192.png",
