@@ -24,6 +24,11 @@ export const metadata: Metadata = {
     title: siteConfig.shortName,
   },
   icons: {
+    icon: {
+      url: "/icons/favicon.ico",
+      sizes: "256x256",
+      type: "image/x-icon",
+    },
     apple: [
       {
         url: "/icons/apple-touch-icon.png",
